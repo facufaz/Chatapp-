@@ -32,9 +32,11 @@ cd ChatApp
 
 4. Start the development server for both the frontend and backend:
 - cd client
-- npm start
+- npm run start
 - cd ../server
-- npm start
+- npm run nodemon
+- cd ../socket
+- npm run nodemon
 
 5. You can access the application by opening a web browser and navigating to "http://localhost:3000."
 
@@ -55,4 +57,3 @@ Acknowledgments
 Special thanks to the developers and contributors who have helped make this project possible.
 We hope you enjoy using ChatApp! If you have any questions, feedback, or issues to report, please don't hesitate to reach out. Happy chatting!
 
-vbnet
